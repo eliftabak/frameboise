@@ -10,12 +10,12 @@ const useStyles = makeStyles((theme) => ({
     ".MuiAppBar-root": {
       background: "transparent",
       boxShadow: "none",
-    }
+    },
   },
   title: {
     flexGrow: 1,
-    marginLeft: "100px",
-    color: 'pink',
+    marginLeft: "10%",
+    color: "#ff4081",
   },
 }));
 
