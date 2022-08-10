@@ -31,6 +31,7 @@ export default function Home() {
            <Button
              variant="contained"
              color="secondary"
+             href="layout"
              className={classes.buttonContained}
            >
              Layout
@@ -38,6 +39,7 @@ export default function Home() {
            <Button
              variant="outlined"
              color="secondary"
+             href="about"
              className={classes.buttonOutlined}
            >
              Learn more
