@@ -5,7 +5,7 @@ import OutputBar from "./outputBar/index";
 
 export default function Layout() {
     return (
-        <div>
+        <div className="baseContainer">
             <div className="PreviewContainer">
                 <Preview/>
             </div>
