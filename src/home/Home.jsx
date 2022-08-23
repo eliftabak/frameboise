@@ -21,7 +21,7 @@ export default function Home() {
 
  return (
    <div className="headerContainer">
-     <Navbar />
+     
      <Grid item xs={8}>
        <Paper elevation={0} className={classes.paper}>
          <div className="landingPageText">

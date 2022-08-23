@@ -5,10 +5,12 @@ import Home from "./home/Home.jsx";
 import Layout from "./layout/base.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './about';
+import Navbar from './home/navbar/Navbar';
 
 export default function App() {
   return (
     <BrowserRouter>
+    <Navbar />
       <Routes>
         <Route index element={<Home />} />
         <Route path="layout" element={<Layout />} />
